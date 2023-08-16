@@ -1,10 +1,13 @@
 public class House {
 
-    String address;
-    int numberOfFloors;
+   private String address;
+    private int numberOfFloors;
 
     public House() {
-        System.out.println("A house object is created !");
+        this.address = address;
+        this.numberOfFloors = numberOfFloors;
+
+        System.out.println("A house object is created !" + address);
     }
 
 }
